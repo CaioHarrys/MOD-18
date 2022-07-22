@@ -21,6 +21,11 @@
     padding: 0;
 }
 
+.card-img-top {
+    background-color: #D6F2C9;
+    width: 100%;
+}
+
 .sm-prg {
     font-family: var(--font-family-two);
     color: var(--font-color-one);
@@ -40,4 +45,10 @@
 .btn-dark {
     border-radius: 0px;
     margin: 0;
+}
+
+/*THIRD SEC*/
+/*CARDS*/
+.card {
+    border: 0px;
 }
