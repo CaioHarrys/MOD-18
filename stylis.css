@@ -1,0 +1,43 @@
+@import url("https://use.typekit.net/fjg3ucw.css");
+@import url("https://use.typekit.net/fjg3ucw.css");
+@import url("https://use.typekit.net/fjg3ucw.css");
+
+:root {
+    --font-family-one: juniper-std, sans-serif;
+    --font-family-two: prenton-condensed, sans-serif;
+    --font-family-three: prenton, sans-serif;
+
+    --font-color-one: black;
+    --font-color-two: white;
+}
+
+/*FIRST SEC*/
+.title {
+    font-family: var(--font-family-one);
+    color: var(--font-color-one);
+    font-size: 5em;
+    line-height: 15vh;
+    margin: 0;
+    padding: 0;
+}
+
+.sm-prg {
+    font-family: var(--font-family-two);
+    color: var(--font-color-one);
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.agits {
+    background-color: #F2E6DF;
+}
+
+.ag {
+    background-color: #D6F2C9;
+}
+
+.btn-dark {
+    border-radius: 0px;
+    margin: 0;
+}
