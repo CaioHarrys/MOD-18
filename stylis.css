@@ -49,30 +49,50 @@
 
 /*THIRD SEC*/
 /*CARDS*/
+.promo-img {
+    width: 100%;
+    background-image: url(./Assets/PRODUCTS/chair-grey.png);
+}
+
+.sellit {
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.sellit:hover {
+    color: #F27405;
+}
+
 .card {
     border: 0px;
 }
-.aka{
+
+.aka {
     background-color: #A61508;
     border-radius: 20px 0px 20px 0px;
 }
-.img-boxed{
+
+.img-boxed {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.img-boxed>img{
+
+.img-boxed>img {
     width: 80%;
     border-radius: 10px;
     margin: 0;
     padding: 0;
 }
-.footis{
+
+.footis {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.title-2{
+
+.title-2 {
     font-family: var(--font-family-one);
     color: var(--font-color-two);
     font-size: 2em;
@@ -81,15 +101,35 @@
     padding: 0;
     margin-right: 1em;
 }
-.paragraph-2{
+
+.paragraph-2 {
     font-family: var(--font-family-three);
     color: var(--font-color-two);
     font-size: 1em;
     margin: 0;
     padding: 0;
 }
-.block-3{
+
+.block-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.modal-body {
+    padding: 0 !important;
+}
+
+.boxedis {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img-leftis {
+    display: flex;
+}
+
+.img-leftis>img {
+    width: 100%;
 }
