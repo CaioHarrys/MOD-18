@@ -1,11 +1,13 @@
 @import url("https://use.typekit.net/fjg3ucw.css");
 @import url("https://use.typekit.net/fjg3ucw.css");
 @import url("https://use.typekit.net/fjg3ucw.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
     --font-family-one: juniper-std, sans-serif;
     --font-family-two: prenton-condensed, sans-serif;
     --font-family-three: prenton, sans-serif;
+    --font-family-four: 'Inter', sans-serif;
 
     --font-color-one: black;
     --font-color-two: white;
@@ -124,12 +126,143 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    border-radius: 10px;
 }
 
 .img-leftis {
+    background-color: #F27405;
     display: flex;
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
 }
 
 .img-leftis>img {
     width: 100%;
+}
+
+.modal-content {
+    border-radius: 10px !important;
+    border: 0px;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-right: -4px;
+    vertical-align: middle;
+    border: 0px !important;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    border: 0px !important;
+
+    -webkit-box-shadow: 0px 0px 42px 2px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 0px 42px 2px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 0px 42px 2px rgba(0, 0, 0, 0.27);
+}
+
+.content-right {
+    width: 50%;
+    padding: 2.5em;
+    text-align: center;
+}
+
+.content-right>h1 {
+    font-family: var(--font-family-three);
+    font-size: 2em;
+    font-weight: 100;
+    color: #000000;
+}
+
+.content-right>p {
+    font-family: var(--font-family-two);
+    font-size: 1em;
+    font-weight: 100;
+    color: #666565;
+}
+
+.iconis {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.set-icon {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px 0px 15px;
+    padding: 0;
+}
+
+.set-icon>p {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-four);
+    font-weight: 900;
+    font-size: 0.9em;
+}
+
+.set-icon>img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+/*MODAL*/
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .boxedis {
+        flex-direction: column;
+    }
+
+    .img-leftis {
+        width: auto !important;
+    }
+
+    .content-right {
+        width: auto !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .boxedis {
+        flex-direction: column;
+    }
+
+    .img-leftis {
+        width: auto !important;
+    }
+
+    .content-right {
+        width: auto !important;
+    }
+}
+
+@media (min-width: 319px) and (max-width:575.98px) {
+    .boxedis {
+        flex-direction: column;
+    }
+
+    .img-leftis {
+        width: auto !important;
+    }
+
+    .content-right {
+        width: auto !important;
+    }
 }
