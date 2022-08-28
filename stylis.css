@@ -75,9 +75,13 @@
 .agits {
     background-color: #F2E6DF;
 }
+.agits>img{
+    margin: 2em;
+}
 
 .ag {
     background-color: #D6F2C9;
+    padding: 2em;
 }
 
 .btn-dark {
@@ -163,7 +167,7 @@
     width: 80%;
     border-radius: 10px;
     margin: 0;
-    padding: 0;
+    padding: 2em;
 }
 
 .footis {
@@ -222,6 +226,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 5em 0em 5em 0em;
 }
 
 .modal-body {
@@ -391,6 +396,9 @@ ul {
     .content-right {
         width: auto !important;
     }
+    .img-boxed>img{
+        padding: 0px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -405,6 +413,27 @@ ul {
     .content-right {
         width: auto !important;
     }
+
+    .img-boxed {
+        width: 100%;
+    }
+
+    .img-boxed>img{
+        width: 100%;
+        padding: 0em!important;
+    }
+
+    .title-2 {
+        line-height: 5vh;
+    }
+
+    .footis {
+        margin-top: 2em;
+    }
+
+    .boxed {
+        margin-top: 2em;
+    }
 }
 
 @media (min-width: 319px) and (max-width:575.98px) {
@@ -418,5 +447,29 @@ ul {
 
     .content-right {
         width: auto !important;
+    }
+
+    .img-boxed>img {
+        width: 100%;
+        margin-top: 2em;
+        padding: 0px !important;
+    }
+
+    .block-3 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .title-2 {
+        line-height: 5vh;
+    }
+
+    .footis {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .boxed {
+        margin-top: 2em;
     }
 }
