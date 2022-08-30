@@ -1,3 +1,3 @@
-function incre(){
+function incre() {
     var value = parseInt($('#textBox').val()) + 1;
 }
